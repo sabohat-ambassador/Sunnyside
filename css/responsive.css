@@ -1,0 +1,134 @@
+@media(max-width: 1199px){
+.text{
+    padding: 0 40px;
+}
+.column2{
+    width: 260px;
+}
+}
+
+@media(max-width: 991px){
+    nav a{
+        margin: 9px;
+    }
+    .CONTACT{
+        padding: 15px 22px;
+    }
+    .article-text{
+        width: 350px;
+    }
+    .article-page{
+        width: 300px;
+    }
+    .four-text{
+        bottom:18px
+    }
+    .column2{
+        width: 200px;
+    }
+}
+
+@media(max-width: 767px){
+    nav{
+        display: none;
+    }
+    .shape{
+        display: block;
+    }
+   .second-section .column {
+       
+       width: 100%;
+   }
+   .text{
+       width: 100%;
+       margin-bottom: 50px;
+   }
+   
+   .second-section .row {
+       display: block;
+   }
+
+
+
+   .third-section .row{
+       display: block;
+   }
+
+   .third-section .glass{
+       width: 100%;
+   }
+
+   .third-section .text{
+       margin-bottom: 50px;
+   }
+
+
+
+
+
+
+
+
+
+   .four-section .row{
+       display: block;
+       
+   }
+
+   .four-section .picture{
+       width: 100%;
+   }
+
+   .five-section .row{
+        display: block;
+        justify-content: center;
+   }
+   .five-section .column2{
+    width: 450px;
+   }
+.column2{
+    margin-bottom: 60px;
+}
+   .column2 img{
+       margin-top: 20px;
+   }
+   .column2 p{
+       margin-top: 0;
+   }
+   .column2 .job{
+       margin-top: 15px;
+   }
+
+
+
+}
+
+@media(max-width: 565px){
+    
+}
+
+@media(max-width: 480px){
+    .text {
+        padding: 0 24px;
+    }
+
+    .six-section .row-images{
+        flex-wrap: nowrap;
+    }
+    .five-section .column2 {
+        width: 372px;}
+
+        .four-section .picture{
+            height: 500px;
+        }
+        .picture img{
+            height: 600px;
+        }
+        .orange-page{
+            margin-bottom: -40px;
+        }
+        .five-section .column2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+}

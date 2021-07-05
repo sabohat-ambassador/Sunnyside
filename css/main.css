@@ -50,14 +50,15 @@ body {
     width: 100%;
 }
 
+.article-text:hover{
+    color: #FAD723;
+    cursor: pointer;
+}
 
 
-
-
-
-
-
-
+.shape{
+    display: none;
+}
 
 
 /* first-section */
