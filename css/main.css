@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    margin: 0;
+}
+
+/* umumiy stillar */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    width: 50%;
+}
+
+.text {
+    padding: 0 130px;
+
+}
+
+.article-text {
+    color: #24303E;
+    font-size: 2.85rem;
+    width: 445px;
+
+}
+
+.article-page {
+    color: #808397;
+    font-size: 1.28rem;
+    font-family: 'Barlow', sans-serif;
+    width: 445px;
+
+}
+
+.column img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* first-section */
+
+.first-section {
+    background: url(../img/mae-mu-1APtYqzNajA-unsplash.jpg)no-repeat;
+    background-position: center;
+    background-color: #49bcf1;
+    height: 800px;
+}
+
+.main-header {
+    padding: 40px 30px;
+}
+
+nav a {
+    margin: 24px;
+    text-decoration: none;
+    font-size: 1.28rem;
+    line-height: 1.78rem;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+.CONTACT {
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color: #24303E;
+    padding: 16px 30px;
+    font-size: 1.07rem;
+}
+
+.CONTACT:hover {
+    background-color: #77cdf5;
+    color: white;
+
+}
+
+.animation {
+    text-align: center;
+}
+
+.first-section h1 {
+    color: white;
+    font-size: 4rem;
+    margin-top: 110px;
+}
+
+.arrow {
+    margin-top: 50px;
+}
+
+
+/* second-article */
+
+.learn {
+    color: #24303E;
+    text-decoration: none;
+
+}
+
+.article-img {
+    background-color: #fad723;
+}
+
+span {
+    display: block;
+    background: #FAD400;
+    opacity: 0.25;
+    border-radius: 28px;
+    padding: 4px;
+    width: 120px;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+.span:hover {
+    opacity: 1;
+
+}
+
+/* third-section */
+
+
+.yellow {
+    color: #FAD723;
+
+}
+
+.more {
+    color: #FAD723;
+}
+
+.pink {
+    background: #FE7766;
+
+
+}
+
+/* four-section */
+
+.dark-yellow {
+    background-color: #FAD723;
+}
+
+.glass {
+    background-color: #FF7165;
+}
+
+.picture {
+    position: relative;
+}
+
+.four-text {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 339px;
+}
+
+.cherry-text {
+    color: #24554A;
+    font-size: 2rem;
+}
+
+.cherry-page {
+    color: #3E7467;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.14rem;
+
+}
+
+.orange-text {
+    color: #052C3B;
+    font-size: 2rem;
+}
+
+.orange-page {
+    color: #19536C;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.14rem;
+}
+
+/* five section */
+.five-section .container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.column2 {
+    text-align: center;
+    width: 350px;
+}
+
+.five-section h3 {
+    color: #A7AAAD;
+    font-size: 1.42rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 160px;
+
+}
+
+.column2 img {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.five-section p {
+    color: #5B636D;
+    font-size: 1.28rem;
+    line-height: 2.28rem;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+.five-section h4 {
+    color: #24303E;
+    font-size: 1.28rem;
+    margin-top: 69px;
+    margin-bottom: -20px;
+}
+
+.job {
+    font-family: 'Barlow', sans-serif;
+    color: #A7AAAD;
+    letter-spacing: -1px;
+}
+
+/* six-section */
+
+
+.six-section {
+    margin-top: 120px;
+}
+
+.six-section .column4 {
+    width: 25%;
+}
+
+.row-images {
+    display: flex;
+}
+
+.column4 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+
+.main-footer {
+    background-color: #90D4C6;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.menu {
+    padding-top: 40px;
+}
+
+.menu a {
+    color: #458D7E;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.28rem;
+    margin: 24px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+
+.ikon a {
+    text-decoration: none;
+    color: #2C7566;
+    margin: 14px;
+    font-size: 1.42rem;
+}
+
+.ikon a:hover {
+    color: white;
+}
+
+.ikon {
+    margin-top: 88px;
+    padding-bottom: 72px;
+}
