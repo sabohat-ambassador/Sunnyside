@@ -131,4 +131,22 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+
+        .six-section .column4 {
+            width: 50%;
+        }
+
+        .six-section .row-images {
+            flex-wrap: wrap;
+        }
+
+        .second-section .row{
+            display: flex;
+        flex-wrap: wrap;
+        }
+
+        .dark-yellow{
+            order: -1;
+        }
 }
