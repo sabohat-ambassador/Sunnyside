@@ -56,9 +56,6 @@ body {
 }
 
 
-.shape{
-    display: none;
-}
 
 
 /* first-section */
@@ -81,6 +78,9 @@ nav a {
     line-height: 1.78rem;
     color: white;
     font-family: 'Barlow', sans-serif;
+}
+  .menu-toggle{
+    display: none;
 }
 
 .CONTACT {
